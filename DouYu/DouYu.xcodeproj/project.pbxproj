@@ -54,6 +54,7 @@
 		1840FD0921902A8100D86B9B /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				1840FD1D2190423800D86B9B /* Classes */,
 				1840FD0A21902A8100D86B9B /* AppDelegate.swift */,
 				1840FD0C21902A8100D86B9B /* ViewController.swift */,
 				1840FD0E21902A8100D86B9B /* Main.storyboard */,
@@ -62,6 +63,61 @@
 				1840FD1621902A8100D86B9B /* Info.plist */,
 			);
 			path = DouYu;
+			sourceTree = "<group>";
+		};
+		1840FD1D2190423800D86B9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1840FD222190423800D86B9B /* Prolife */,
+				1840FD1F2190423800D86B9B /* Tools */,
+				1840FD232190423800D86B9B /* Main */,
+				1840FD1E2190423800D86B9B /* Home */,
+				1840FD202190423800D86B9B /* Follow */,
+				1840FD212190423800D86B9B /* Live */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1840FD1E2190423800D86B9B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1840FD1F2190423800D86B9B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1840FD202190423800D86B9B /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1840FD212190423800D86B9B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1840FD222190423800D86B9B /* Prolife */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prolife;
+			sourceTree = "<group>";
+		};
+		1840FD232190423800D86B9B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +331,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E7G7Z49YR3;
+				DEVELOPMENT_TEAM = 3PTVG8RJ46;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xindongfang.wangbin.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,8 +347,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E7G7Z49YR3;
+				DEVELOPMENT_TEAM = 3PTVG8RJ46;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xindongfang.wangbin.DouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
